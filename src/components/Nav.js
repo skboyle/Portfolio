@@ -9,7 +9,7 @@ import '../assets/styles/App.scss';
 const Nav = ({ name }) => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-light bg-white">
         <a className="navbar-brand">S. Boyle</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
@@ -27,7 +27,7 @@ const Nav = ({ name }) => {
               </div>
             </li>
 
-            <a className="nav-item nav-link" href="#">Contact</a>
+            <Link to='/contact' className="nav-item nav-link">Contact</Link>
           </div>
         </div>
       </nav>

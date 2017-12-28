@@ -9,8 +9,8 @@ const Feedbackloop = ({ Feedbackloop }) => {
     <div>
       <Nav/>
       <div className="project-title">
-      <h1>Feedback Loop </h1>
-      <p>Feedback Loop is a forum for music makers that encourages users to make helpful critiques and share music. Feedback loop is built with with React, Rails and custome CSS.</p>
+      <h1>Feedback Loop</h1>
+      <p className="project-text;">Feedback Loop is a forum for music makers that encourages users to make helpful critiques and share music. Feedback loop is built with with React, Rails and custome CSS. Users can log in and share songs with Spotify.</p>
       </div>
       <div className="container">
         <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">

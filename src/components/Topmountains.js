@@ -8,35 +8,29 @@ const Topmountains = ({ Topmountains }) => {
   return (
     <div>
       <Nav/>
+      <div className="portfolio-page">
       <div className="project-title">
       <h1>Top Mountains </h1>
-      <p>Top Mountains is a ski mountain review site I made as a group project. Top mountains is built with Rails and React and uses Devise for sing-in and Mailcatcher for email notifcations.</p>
+      <p className="project-text">Top Mountains is a ski mountain review site I made as a group project. Top mountains is built with Rails and React and uses Devise for sing-in and Mailcatcher for email notifcations.</p>
       </div>
+      <div className="side-display">
       <div className="container">
         <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
-    <ol className="carousel-indicators">
+      <ol className="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-    </ol>
+      </ol>
 
     <div className="carousel-inner">
       <div className="carousel-item active">
-        <img className="d-block w-100" src="https://i.imgur.com/jEG1vzh.jpg" alt="First slide"/>
+        <img className="d-block w-100" src="https://i.imgur.com/v6lfXqb.png" alt="First slide"/>
       </div>
 
       <div className="carousel-item">
-        <img className="d-block w-100" src="https://i.imgur.com/3cn0kbB.jpg" alt="Second slide"/>
-      </div>
-
-      <div className="carousel-item">
-        <img className="d-block w-100" src="https://i.imgur.com/VtEp5eX.jpg" alt="Third slide"/>
-      </div>
-
-      <div className="carousel-item">
-        <img className="d-block w-100" src="https://i.imgur.com/soZy4vL.png" alt="Fourth slide"/>
+        <img className="d-block w-100" src="https://i.imgur.com/1vCiQH0.png" alt="Second slide"/>
       </div>
 
     </div>
@@ -49,8 +43,10 @@ const Topmountains = ({ Topmountains }) => {
       <span className="sr-only">Next</span>
     </a>
   </div>
-    </div>
-    </div>
+  </div>
+  </div>
+  </div>
+  </div>
     );
   };
 

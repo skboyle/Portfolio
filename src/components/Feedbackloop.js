@@ -8,10 +8,12 @@ const Feedbackloop = ({ Feedbackloop }) => {
   return (
     <div>
       <Nav/>
+      <div className="portfolio-page">
       <div className="project-title">
-      <h1>Feedback Loop </h1>
-      <p>Feedback Loop is a forum for music makers that encourages users to make helpful critiques and share music. Feedback loop is built with with React, Rails and custome CSS.</p>
+      <h1>Feedback Loop</h1>
+      <p className="project-text">Feedback Loop is a forum for music makers that encourages users to make helpful critiques and share music. Feedback loop is built with with React, Rails and custome CSS. Users can log in and share songs with Spotify.</p>
       </div>
+      <div className="side-display">
       <div className="container">
         <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
     <ol className="carousel-indicators">
@@ -41,14 +43,16 @@ const Feedbackloop = ({ Feedbackloop }) => {
 
     </div>
     <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-      <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span className="carousel-control-prev-icon" aria-hidden="false"></span>
       <span className="sr-only">Previous</span>
     </a>
     <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-      <span className="carousel-control-next-icon" aria-hidden="true"></span>
+      <span className="carousel-control-next-icon" aria-hidden="false"></span>
       <span className="sr-only">Next</span>
     </a>
-  </div>
+    </div>
+    </div>
+    </div>
     </div>
     </div>
     );

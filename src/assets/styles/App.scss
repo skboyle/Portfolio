@@ -1,8 +1,185 @@
 body {
   font-family: futura;
+  font-weight: thick;
+  background-color: #3A99D9;
 }
+
+.portfolio-page{
+  width: 100%;
+  padding: 1em;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .project-title{
-  text-align: center;
-  width: 450px;
+  max-width: 350px;
+  padding: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+  margin-top: 1em;
+  margin-left: 1em;
+  margin-right:1em;
+  background-color: #3A99D9;
+  color: white;
+  border-color: white;
+  border-style: solid;
+  border-width: thick;
+
+}
+
+.project-title h1 {
+
+}
+
+.side-display{
+ max-width: 800px;
+ justify-content: center;
+}
+
+form {
+  max-width: 400px;
   margin: auto;
+}
+
+.container {
+  margin-top: 1em;
+}
+
+.home-greeting {
+  padding: 1em;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 2em;
+  text-align: center;
+  background-color: #3A99D9;
+  color: white;
+  border-color: white;
+  border-style: solid;
+  border-width: thick;
+}
+
+.contact-info {
+  padding: 1em;
+  max-width: 400px;
+  margin: auto;
+  margin-top: 1em;
+  text-align: center;
+  background-color: #3A99D9;
+  color: white;
+  border-color: white;
+  border-style: solid;
+  border-width: thick;
+}
+
+.contact-info p {
+  padding: 0px;
+  margin: 0px;
+}
+
+.contact-info a {
+  color: white;
+  text-decoration: underline;
+}
+.contact-info a:hover {
+  color: white;
+}
+
+
+
+
+div {
+  animation: rotate-all 2s 0 infinite linear alternate;
+}
+
+.div1 {
+  width: 80px;
+  height: 80px;
+  background-color: #3A99D9;
+  position: relative;
+  margin: auto;
+  animation: square-to-circle 5.5s 2.5s infinite cubic-bezier(1,.015,.295,1.225) alternate-reverse;
+
+}
+
+.div2 {
+  width: 80px;
+  height: 80px;
+  background-color: #3A99D9;
+  position: relative;
+  margin: auto;
+  animation: square-to-circle2 5.5s 2.42s infinite cubic-bezier(1,.015,.295,1.225) alternate-reverse;
+}
+
+#one {
+  top: 50px;
+}
+
+#two {
+  top: 50px;
+  right: 80px;
+}
+
+#three {
+  top: 50px;
+}
+
+#four {
+  bottom: 110px;
+  left: 80px;
+}
+
+@keyframes square-to-circle {
+  0%  {
+    border-radius:0 0 0 0;
+    background: white;
+    transform:rotate(45deg);
+  }
+  25%  {
+    border-radius:50% 0 0 0;
+    background: white;
+    transform:rotate(135deg);
+  }
+  50%  {
+    border-radius:50% 50% 0 0;
+    background: white;
+    transform:rotate(180deg);
+  }
+  75%  {
+    border-radius:50% 50% 50% 0;
+    background: white;
+    transform:rotate(315deg);
+  }
+  100% {
+    border-radius:50%;
+    background: white;
+    transform:rotate(404deg);
+  }
+}
+
+@keyframes square-to-circle2 {
+  0%  {
+    border-radius:0 0 0 0;
+    background: white;
+    transform:rotate(45deg);
+  }
+  25%  {
+    border-radius:0 0 50% 0;
+    background: white;
+    transform:rotate(135deg);
+  }
+  50%  {
+    border-radius:0 0 50% 50%;
+    background: white;
+    transform:rotate(180deg);
+  }
+  75%  {
+    border-radius:50% 0 50% 50%;
+    background: white;
+    transform:rotate(315deg);
+  }
+  100% {
+    border-radius:50%;
+    background: white;
+    transform:rotate(404deg);
+  }
 }

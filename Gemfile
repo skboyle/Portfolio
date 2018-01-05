@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
+gem 'sinatra'
 
 require ruby '2.4.1'
 
-require gem 'puma'
-require gem 'sinatra'
+gem 'puma'
+gem 'sinatra'

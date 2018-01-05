@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.4.1'
+require ruby '2.4.1'
 
-gem 'puma'
-gem 'sinatra'
-gem "actionmailer", require: "action_mailer"
+require gem 'puma'
+require gem 'sinatra'

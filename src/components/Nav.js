@@ -32,8 +32,8 @@ const Nav = ({ name }) => {
         </div>
       </nav>
     </div>
-    );
-  };
+  );
+};
 
 
 export default Nav;

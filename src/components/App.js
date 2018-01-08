@@ -14,14 +14,14 @@ const App = ({ name }) => {
 
     <Router>
       <switch>
-       <Route exact path="/" component={Home} />
-       <Route path="/feedbackloop" component={FeedbackLoop} />
-       <Route path="/topmountains" component={Topmountains} />
-      <Route path="/contact" component={Contact} />
-     </switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/feedbackloop" component={FeedbackLoop} />
+        <Route path="/topmountains" component={Topmountains} />
+        <Route path="/contact" component={Contact} />
+      </switch>
     </Router>
-    );
-  };
+  );
+};
 
 
 export default App;

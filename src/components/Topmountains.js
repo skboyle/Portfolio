@@ -11,7 +11,7 @@ const Topmountains = ({ Topmountains }) => {
       <div className="portfolio-page">
         <div className="project-title">
           <h1>Top Mountains </h1>
-          <p className="project-text">Top Mountains is a ski mountain review site made as a group project for Launch Academy. Top mountains was built with Rails and React and uses Devise for sing-in and Mailcatcher for email notifcations.</p>
+          <p className="project-text">Top Mountains is a ski mountain review site made as a group project for Launch Academy. Top mountains was built with Rails and React and uses Devise for sign-in and Mailcatcher for email notifcations.</p>
         </div>
         <div className="side-display">
           <div className="container">

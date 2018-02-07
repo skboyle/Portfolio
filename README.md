@@ -1,3 +1,7 @@
-Portfolio made using Sinatra, React and Bootstrap.
+# Portfolio
+A minimal personal portfolio.
 
-Heroku push 01/07/18
+## Built With
+- Sinatra
+- React
+- React Router

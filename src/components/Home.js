@@ -10,8 +10,13 @@ const Home = ({ name }) => {
       <Nav/>
       <div className="container">
         <div className="home-greeting">
-          <h3>Hi, {`I\'m`} a web developer!</h3>
-          <h4>{` I like making fun, intuitive and user friendly websites. I have experience with Ruby on Rails, Sinatra, React.js, Node.js, Python, Django, jQuery, SQL, Bootstrap, Foundation and SASS.`}</h4>
+          <h3>Steven Boyle</h3>
+          <h5>{` I like making fun, intuitive and user friendly websites.`}</h5><br/>
+          <p>
+            LANGUAGES -  Ruby, JavaScript, Python, HTML5, CSS3, SASS, jQuery <br/><br/>
+            FRAMEWORKS - Ruby on Rails, React.js, Node.js, Redux, Django, Foundation, Bootstrap, Material UI, Rspec, Capybara, Jasmine-Enzyme, Karma <br/><br/>
+            DATABASE SYSTEMS - PostgreSQL, MongoDB
+          </p>
           <div className="div1" id="one"></div>
           <div className="div1" id="two"></div>
           <div className="div1" id="three"></div>

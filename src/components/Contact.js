@@ -32,12 +32,12 @@ class Contact extends React.Component{
         <Nav/>
         <div className="container">
           <div className="contact-info">
-            <p>Need custom work?</p>
-            <a href="mailto:skboylework@gmail.com">✉ email me</a>
-            <p>I'll get back to you within 48 hours.</p>
+            <h5>Need custom work?</h5>
+            <h5><a href="mailto:skboylework@gmail.com">✉ email me</a></h5>
+            <h5>I'll get back to you within 48 hours.</h5>
             <br/>
-            <p>
-              <a href="https://github.com/skboyle">GitHub</a></p>
+            <h5>
+              <a href="https://github.com/skboyle">GitHub</a></h5>
             </div>
 
             {/* <form>

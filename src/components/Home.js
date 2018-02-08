@@ -11,7 +11,7 @@ const Home = ({ name }) => {
       <div className="container">
         <div className="home-greeting">
           <h3>Hi, {`I\'m`} a web developer!</h3>
-          <h4>{` I like making fun, intuitive and user friendly websites. I have experience with Ruby on Rails, Sinatra, React.js, Node.ks, Python, Django, jQuery SQL, Bootstrap, Foundation and SASS.`}</h4>
+          <h4>{` I like making fun, intuitive and user friendly websites. I have experience with Ruby on Rails, Sinatra, React.js, Node.js, Python, Django, jQuery, SQL, Bootstrap, Foundation and SASS.`}</h4>
           <div className="div1" id="one"></div>
           <div className="div1" id="two"></div>
           <div className="div1" id="three"></div>

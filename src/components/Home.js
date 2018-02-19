@@ -14,7 +14,7 @@ const Home = ({ name }) => {
           <h5>{` I like making fun, intuitive and user friendly websites.`}</h5><br/>
           <p>
             LANGUAGES -  Ruby, JavaScript, Python, HTML5, CSS3, SASS, jQuery <br/><br/>
-            FRAMEWORKS - Ruby on Rails, React.js, Node.js, Redux, Django, Foundation, Bootstrap, Material UI, Rspec, Capybara, Jasmine-Enzyme, Karma <br/><br/>
+            FRAMEWORKS - Ruby on Rails, React.js, Node.js, Redux, jQuery, Django, Foundation, Bootstrap, Material UI, Rspec, Capybara, Jasmine-Enzyme, Karma <br/><br/>
             DATABASE SYSTEMS - PostgreSQL, MongoDB
           </p>
           <div className="div1" id="one"></div>
